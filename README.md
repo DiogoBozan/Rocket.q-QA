@@ -25,7 +25,7 @@ Download this repositorie and with your teminal, enter in the directory
 npm install
 ```
 
-##### To install database:
+##### To start database:
 
 ```bash
 npm run init-db
