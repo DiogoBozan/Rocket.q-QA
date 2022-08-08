@@ -1,0 +1,31 @@
+{
+  "name": "mission_discover_rocketq",
+  "version": "1.0.0",
+  "description": "Project developed to manage questions and answers from anonymous users.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "init-db": "node src/db/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiogoBozan/Rocket.q-Q-and-A.git"
+  },
+  "keywords": [],
+  "author": "Diogo Bozan <diogo_fb_@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiogoBozan/Rocket.q-Q-and-A/issues"
+  },
+  "homepage": "https://github.com/DiogoBozan/Rocket.q-Q-and-A#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "tar": ">=4.4.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
